@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="프로필 링크_뿔버섯" />
+        <meta property="og:description" content="이것저것 링크 모음" />
+        <meta property="og:image" content="뿔버섯.jpg" />
+        <title>프로필 링크_뿔버섯</title>
+
+        <style>
+             @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+                * {
+                font-family: "Pretendard",serif;
+                }
+               
+
+            body { 
+                background-color: #44398a;
+                background: linear-gradient(220deg, #FFFCFD 0%, #44398a 100%);
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100%; 
+                
+                border: 2px solid white;
+                background-image: url('뿔버섯.jpg');
+                background-position: center ;
+                background-size: cover;
+            }
+            .main {
+                color: white;
+                font: 20px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+            .sub {
+                color: white;
+                font: 14px;
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap {
+               
+                width: 300px;
+                margin: 20px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a {
+                width:  300px;
+                height: 50px;
+
+                background-color: rgb(255, 218, 218);
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: #44398a;
+                
+
+                display: flex;
+                flex-direction: column;
+            
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+                border: 1px solid white;
+            }
+            .wrap > a:hover {
+                background-color: #f2f2f2;
+                font-size: 20px;              
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+       <div class="profile"></div>
+
+       <h1 class="main">뿔버섯</h1>
+       <p class="sub">내 뿔을 먹어 보던가.</p>
+
+        <a target="_blank" href="https://blog.naver.com/dlfeksrhdqor"> 나의 블로그</a>
+        <a target="_blank" href="https://www.instagram.com/hi_uuu_rang">나의 인스타</a>
+        <a target="_blank" href="https://bluesunblueday.tistory.com/"> 나의 티스토리</a>
+        <a target="_blank" href="https://www.twitch.tv/mister903">나의 밤</a>
+       </div>
+    </body>
+</html>
